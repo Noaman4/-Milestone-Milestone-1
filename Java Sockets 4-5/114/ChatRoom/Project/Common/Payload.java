@@ -2,6 +2,8 @@ package Project.Common;
 
 import java.io.Serializable;
 
+// ucid: NS87 // date: 4/1/24
+
 public class Payload implements Serializable {
 
     private long clientId;
