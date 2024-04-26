@@ -259,7 +259,7 @@ public class Room implements AutoCloseable {
             // it was a command, don't broadcast
             return;
         }
-        //NS87-Date 1
+        //NS87-04/01/24
         //the code below is for the bold functions
         if (message.contains("~")){
             String[] tEffects = message.split("");
