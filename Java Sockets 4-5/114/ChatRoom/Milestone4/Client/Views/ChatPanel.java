@@ -61,7 +61,7 @@ public class ChatPanel extends JPanel {
         JButton button = new JButton("Send");
         // lets us submit with the enter key instead of just the button click
         //code that lets the enter key send the message
-        //NS87-Date 2
+        //FJ28-4/15/24
         textValue.addKeyListener(new KeyListener() {
 
             @Override
@@ -189,8 +189,6 @@ public class ChatPanel extends JPanel {
         //NS87
         // Check if the message is from an unmuted client and display it differently
         if (text.contains("has been unmuted")) {
-            // Display the message from the unmuted client in a specific way, e.g., different color or style
-            // You can modify this part to suit your UI design
             textContainer.setForeground(Color.BLUE);
         }
     }
