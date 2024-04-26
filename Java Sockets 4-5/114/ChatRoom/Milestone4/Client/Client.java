@@ -30,7 +30,7 @@ public enum Client {
     private final static String MUTE = "mute";
     private final static String UNMUTE = "unmute";
     //code for mute/unmute feature
-    //NS87-Date 2
+    //NS87-04/13/2024
     public void muteUser(String name) throws IOException {
         // To Check if user is muted locally before sending the request
         if (!isUserMuted(name)) {
